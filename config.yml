@@ -1,0 +1,24 @@
+enable: false
+database:
+  hostname: 'localhost:3306'
+  user: 'root'
+  password: ''
+  maindb: ''
+autoreload:
+  enable: true
+  date: ''
+  time: 600000
+header: "§m－－－－－－§e§l⟹ Minecraft 玩家資料平台 ⟸§r§m－－－－－－"
+footer: "§bhttps://mcplayers.info/"
+get_code:
+  - "§r"
+  - "§a您的 OTP 登入密碼為 §e§l%code%"
+  - "§r"
+  - "§a資料 §2%player% §8(§2%uuid§8) §a已完成登記"
+  - "§r"
+alreadyset:
+  - "§r"
+  - "§f您已經設定過密碼，可以直接使用帳號密碼登入網站。"
+  - "§r"
+  - "§c若您忘記密碼，請透過網站上的重設密碼操作。"
+  - "§r"
